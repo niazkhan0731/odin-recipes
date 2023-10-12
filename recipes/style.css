@@ -1,0 +1,65 @@
+/* Reset some default browser styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    background-color: #f4a460;
+    padding: 20px;
+    margin: 0;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    background-color: #f4a460;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left; /* Added to prevent centering */
+}
+
+p {
+    margin: 10px 0;
+    padding: 0 20px;
+}
+
+ul, ol {
+    list-style-position: inside; /* Keep the list markers inside */
+    padding-left: 0;
+    text-align: left; /* Added to prevent centering */
+}
+
+li {
+    margin: 5px 0;
+    padding-left: 20px;
+    background: url('bullet.png') no-repeat left center;
+}
+
+/* Media Query for responsive design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
